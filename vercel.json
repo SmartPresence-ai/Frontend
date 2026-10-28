@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://backend.smartpresence.tech/api/:path*" },
+    { "source": "/api/:path*", "destination": "https://backend-smartpresence-3t5j.onrender.com/api/:path*" },
     { "source": "/((?!api/)(?!.*\\.[A-Za-z0-9]+$).*)", "destination": "/index.html" }
   ],
   "headers": [
